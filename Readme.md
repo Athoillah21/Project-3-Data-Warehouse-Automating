@@ -8,11 +8,11 @@
 
 <h2 align="center">Datawarehouse Automating</h2>
 
-<p align="justify"> The purpose of this project is to answer **<code><a href="https://github.com/Athoillah21/Project-3-Data-Warehouse-Automating/blob/main/questions/questions2a.txt">question 2a</a></code>**. I answered the question using the python programming language.</p> 
+<p align="justify"> The purpose of this project is to answer <code><a href="https://github.com/Athoillah21/Project-3-Data-Warehouse-Automating/blob/main/questions/questions2a.txt">question 2a</a></code>. I answered the question using the python programming language.</p> 
 
 ## Step 1 : Unload .json file become a standard PostgreSQL DDL command
 
-<p align="justify"> Define the database column of the given **<code><a href="https://github.com/Athoillah21/Project-3-Data-Warehouse-Automating/blob/main/sql/schemas/user_address.json">json file</a></code>**. Here I use the following workflow, the json data that has been given is loaded, then the format is converted into a list and then converted into a tuple so that it resembles a DDL command in general in PostgreSQL. </p>
+<p align="justify"> Define the database column of the given <code><a href="https://github.com/Athoillah21/Project-3-Data-Warehouse-Automating/blob/main/sql/schemas/user_address.json">json file</a></code>. Here I use the following workflow, the json data that has been given is loaded, then the format is converted into a list and then converted into a tuple so that it resembles a DDL command in general in PostgreSQL. </p>
 
 ## Step 2 : Establishing a connection with PostgreSQL
 
@@ -21,7 +21,7 @@
 
 ## Step 3 : Load dataset to PandasDataframe before inserting into Database
 
-<p align="justify"> Use the zipfile module to extract the **<code><a href="https://github.com/Athoillah21/Project-3-Data-Warehouse-Automating/blob/main/temp/dataset-small.zip">dataset</a></code>** and then convert it to pandas dataframe form. Perform commands in the problem, such as filtering data by date. </p>
+<p align="justify"> Use the zipfile module to extract the <code><a href="https://github.com/Athoillah21/Project-3-Data-Warehouse-Automating/blob/main/temp/dataset-small.zip">dataset</a></code> and then convert it to pandas dataframe form. Perform commands in the problem, such as filtering data by date. </p>
 
 ## Step 4 : Create engine and insert dataframe into PostgreSQL Database
 
