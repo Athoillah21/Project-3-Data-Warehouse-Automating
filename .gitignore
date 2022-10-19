@@ -1,0 +1,11 @@
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+profile_default/
+ipython_config.py
+
+.mrx-link-logs
+*/.mrx-link-logs/*S
+
+.vscode
+*/.vscode/*
